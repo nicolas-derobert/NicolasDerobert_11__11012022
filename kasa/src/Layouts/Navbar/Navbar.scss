@@ -1,0 +1,19 @@
+
+
+.navbar {
+	background-color: $white-color;
+	margin: 10px;
+    ul{
+        display: flex;
+        flex-flow: row nowrap  ;
+        justify-content: space-between;
+    }
+	li{
+        padding: 0 10px;
+        list-style-type: none; 
+        a{
+            text-decoration: none;
+            color: $main-color;
+        }
+	}
+}
