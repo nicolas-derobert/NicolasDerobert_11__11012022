@@ -1,19 +1,8 @@
 
 
-.navbar {
-	background-color: $white-color;
-	margin: 10px;
-    ul{
-        display: flex;
-        flex-flow: row nowrap  ;
-        justify-content: space-between;
-    }
-	li{
-        padding: 0 10px;
-        list-style-type: none; 
-        a{
-            text-decoration: none;
-            color: $main-color;
-        }
-	}
+.main {
+	margin: 70px 100px;
+	display: flex;
+	flex-flow: column nowrap;
+	align-items:center;
 }

@@ -1,12 +1,13 @@
 import React from "react";
+import "./Thumb.css";
 
-function Thumb() {
+
+function Thumb(props) {
 	return (
-		<article>
-			<div>
-            <img src={KasaLogo} alt="Kasa Logo" />
+		<article className="thumb">			        
+			<div><img src={props.cover} alt="{props.title}" />
 			</div>
-			<h2></h2>
+			<h2>{props.title}</h2>
 		</article>
 	);
 }

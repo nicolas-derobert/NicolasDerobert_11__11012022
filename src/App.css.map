@@ -1,8 +1,9 @@
 {
     "version": 3,
-    "mappings": "AAAA,AAAA,IAAI,CAAA;EACA,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;CACb",
+    "mappings": "AACA,OAAO,CAAC,6LAAI;ACDZ,OAAO,CAAC,6LAAI;ADKZ,AAAA,IAAI,CAAA;EACA,WAAW,EAAE,wBAAwB;EACrC,SAAS,EAAE,GAAG;CACjB;;AACD,AAAA,IAAI,CAAA;EACA,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;CACb;;AACD,AAAA,EAAE,CAAA;EACE,SAAS,EAAE,IAAI;EACf,KAAK,ECTM,OAAO;CDUrB",
     "sources": [
-        "App.scss"
+        "App.scss",
+        "Assets/Styles/variables.scss"
     ],
     "names": [],
     "file": "App.css"

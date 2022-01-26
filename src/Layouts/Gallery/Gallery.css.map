@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACAA,OAAO,CAAC,6LAAI;ADEZ,AAAA,QAAQ,CAAA;EACJ,gBAAgB,ECCF,OAAO;EDCrB,aAAa,EAAE,IAAI;EACnB,OAAO,EAAE,IAAI;EACb,qBAAqB,EAAE,WAAW;EAClC,GAAG,EAAE,IAAI;EACT,OAAO,EAAE,IAAI;EACb,UAAU,EAAE,IAAI;CACnB",
+    "sources": [
+        "Gallery.scss",
+        "../../Assets/Styles/variables.scss"
+    ],
+    "names": [],
+    "file": "Gallery.css"
+}

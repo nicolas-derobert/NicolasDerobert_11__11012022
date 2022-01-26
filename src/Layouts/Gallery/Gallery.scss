@@ -1,0 +1,12 @@
+@import "../../Assets/Styles/variables.scss";
+
+.gallery{
+    background-color: $fourthly-color ;
+    // width: 100%;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+    padding: 50px;
+    margin-top: 40px;
+}

@@ -1,19 +1,25 @@
+@import "../../Assets/Styles/variables.scss";
 
-
-.navbar {
-	background-color: $white-color;
+.Navbar {
 	margin: 10px;
-    ul{
-        display: flex;
-        flex-flow: row nowrap  ;
-        justify-content: space-between;
-    }
-	li{
-        padding: 0 10px;
-        list-style-type: none; 
-        a{
-            text-decoration: none;
-            color: $main-color;
-        }
+	ul {
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: space-between;
+	}
+	li {
+		padding: 0px 10px;
+		list-style-type: none;
+		font-size: 3rem;
+		a {
+			color: $primary-color;
+			text-decoration: none;
+			&.active {
+				text-decoration: underline;
+			}
+			// text-decoration: none;
+			// color: $main-color;
+			// &:active{
+		}
 	}
 }

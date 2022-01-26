@@ -1,20 +1,44 @@
-
+// @use "../../Assets/Styles/variables.scss";
+@import "../../Assets/Styles/variables.scss";
 
 .jumbotron {
-	background-color: $fourthly-color;
-    background: url(../../Assets/Images/jumbotron-image.jpg);
-	margin: 10px;
-    ul{
-        display: flex;
-        flex-flow: row nowrap  ;
-        justify-content: space-between;
-    }
-	li{
-        padding: 0 10px;
-        list-style-type: none; 
-        a{
-            text-decoration: none;
-            color: $main-color;
-        }
+	height: 220px;
+	width: 80%;
+	border-radius: 10px;
+	background-size: cover;
+	background: no-repeat center;
+	// background-image: url("../../Assets/Images/jumbotron-image.jpg");
+	// background: url("../../Assets/Images/jumbotron-image.jpg")  ;
+	// background-color: $fourthly-color;
+	background-image: url("../../Assets/Images/jumbotron-image.jpg");
+  
+	//   &::before {
+	//     content: "";
+	//     position: relative;
+	//     top: 0; left: 0;
+	//     background-color: $fourthly-color;
+	//     width: 100%; height: 100%;
+	//     // background-image: url(../../Assets/Images/jumbotron-image.jpg);
+	//     // filter: grayscale(100%);
+	//   }
+  
+	div {
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;		width: 100%;
+		height: 100%;
+		background-color: rgba($black-color, 0.3);
+		background-size: contain;
+		// margin: -40px 0px;
+		padding: 0;
+		border-radius: 10px;
+	}
+	h1 {
+		font-size: 500;
+		text-align: center;
+		color: #ffffff;
+		font-weight: normal;
 	}
 }

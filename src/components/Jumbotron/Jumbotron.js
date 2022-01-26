@@ -1,12 +1,17 @@
-import React from 'react'
+import React from "react";
+import "./Jumbotron.css";
+
+// import KasaLogo from "../../Assets/Images/";
 
 function Jumbotron() {
-    return (
-        <section>
-            					<img src={KasaLogo} alt="Kasa Logo" />
-
-        </section>
-    )
+	return (
+		<section className="jumbotron">
+			<div>
+				<h1>Chez nous et partout ailleurs</h1>
+			</div>
+			{/* <img src={KasaLogo} alt="Kasa Logo" /> */}
+		</section>
+	);
 }
 
-export default Jumbotron
+export default Jumbotron;

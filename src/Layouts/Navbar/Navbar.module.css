@@ -28,6 +28,7 @@
 }
 
 .Navbar li a.active {
-  text-decoration: underline;
+  -webkit-text-decoration: solid;
+          text-decoration: solid;
 }
-/*# sourceMappingURL=Navbar.css.map */
+/*# sourceMappingURL=Navbar.module.css.map */
