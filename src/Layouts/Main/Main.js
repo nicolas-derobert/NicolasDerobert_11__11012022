@@ -8,8 +8,8 @@ import "./Main.css";
 function Main() {
     return (
         <div className ="main" >
-            <Jumbotron></Jumbotron>
-            <Gallery></Gallery>
+            {/* <Jumbotron></Jumbotron>
+            <Gallery></Gallery> */}
         </div>
     )
 }

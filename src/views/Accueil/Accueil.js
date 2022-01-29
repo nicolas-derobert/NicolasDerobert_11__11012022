@@ -1,15 +1,13 @@
-import React from "react";
-import Header from "../../Layouts/Header/Header";
-import Main from "../../Layouts/Main/Main";
-import Footer from "../../Layouts/Footer/Footer";
+import React, { Fragment } from "react";
+import Jumbotron from "../../components/Jumbotron/Jumbotron";
+import Gallery from "../../Layouts/Gallery/Gallery";
 
 function Accueil() {
 	return (
-		<div>
-			<Header></Header>
-			<Main></Main>
-			<Footer></Footer>
-		</div>
+		<Fragment>
+			<Jumbotron></Jumbotron>
+			<Gallery></Gallery>
+		</Fragment>
 	);
 }
 

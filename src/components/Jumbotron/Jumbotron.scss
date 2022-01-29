@@ -1,44 +1,50 @@
 // @use "../../Assets/Styles/variables.scss";
 @import "../../Assets/Styles/variables.scss";
+@import "../../Assets/Styles/variables.scss";
+@import "../../Assets/Styles/mixin.scss";
 
 .jumbotron {
 	height: 220px;
+	@include small-generic {
+		height: 110px;
+		width: 100%;
+	}
+	@include mobile-generic {
+		height: 110px;
+		width: 100%;
+	}
 	width: 80%;
 	border-radius: 10px;
 	background-size: cover;
 	background: no-repeat center;
-	// background-image: url("../../Assets/Images/jumbotron-image.jpg");
-	// background: url("../../Assets/Images/jumbotron-image.jpg")  ;
-	// background-color: $fourthly-color;
 	background-image: url("../../Assets/Images/jumbotron-image.jpg");
-  
-	//   &::before {
-	//     content: "";
-	//     position: relative;
-	//     top: 0; left: 0;
-	//     background-color: $fourthly-color;
-	//     width: 100%; height: 100%;
-	//     // background-image: url(../../Assets/Images/jumbotron-image.jpg);
-	//     // filter: grayscale(100%);
-	//   }
-  
 	div {
-    position: relative;
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    align-items: center;		width: 100%;
+		position: relative;
+		display: flex;
+		flex-flow: column;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
 		height: 100%;
 		background-color: rgba($black-color, 0.3);
 		background-size: contain;
 		// margin: -40px 0px;
 		padding: 0;
 		border-radius: 10px;
-	}
-	h1 {
-		font-size: 500;
-		text-align: center;
-		color: #ffffff;
-		font-weight: normal;
+		h1 {
+			font-size: 500;
+			text-align: center;
+			color: #ffffff;
+			font-weight: normal;
+			padding: 10px;
+			@include small-generic {
+				text-align: left;
+				font-size: 4rem;
+			}
+			@include mobile-generic {
+				text-align: left;
+				font-size: 4rem;
+			}
+		}
 	}
 }

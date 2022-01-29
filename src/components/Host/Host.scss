@@ -1,0 +1,29 @@
+
+@import "../../Assets/Styles/variables.scss";
+
+.host{
+    color: $primary-color;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: end;
+    align-items: center;
+    h2{
+        font-size: 2.25rem;
+        // white-space: nowrap;
+        margin-right: 20px;
+        font-weight: normal;
+
+    }
+    img{
+        width: 64px;
+        height: 64px;
+        border-radius: 50%;
+        object-fit: cover;
+        z-index: 10;
+    }
+    div{
+        height: 64px;
+        width: 64px;
+    
+    }
+}

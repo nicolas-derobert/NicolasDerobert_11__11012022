@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import NavBar from "../Navbar/Navbar";
+import NavBar from "../../components/Navbar/Navbar";
 import KasaLogo from "../../Assets/Images/kasa.svg";
 import "./Header.css";
 

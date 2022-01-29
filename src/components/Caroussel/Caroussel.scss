@@ -1,0 +1,92 @@
+@import "../../Assets/Styles/variables.scss";
+@import "../../Assets/Styles/mixin.scss";
+
+.caroussel {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	object-fit: contain;
+	overflow: hidden;
+	border-radius: 25px;
+	@include small-generic {
+		height: 100%;
+	}
+	@include mobile-generic {
+		height: 100%;
+	}
+
+	.counter {
+		color: $white-color;
+		position: absolute;
+		top: 90%;
+		right: 50%;
+		font-size: 2rem;
+		z-index: 10;
+		@include small-generic {
+			top: 80%;
+		}
+		@include mobile-generic {
+			top: 80%;
+		}
+	}
+	.arrow {
+		position: absolute;
+		top: 45%;
+		font-size: 3rem;
+		color: #000;
+		z-index: 10;
+		cursor: pointer;
+		user-select: none;
+		display: none;
+		svg {
+			width: 32px;
+			// height: 40px;
+			@include small-generic {
+				height: 30px;
+			}
+			@include mobile-generic {
+				height: 30px;
+			}
+		}
+		&.visible {
+			display: block;
+		}
+		&.right-arrow {
+			
+			right: 1%;
+		}
+
+		&.left-arrow {
+			// position: absolute;
+			// top: 45%;
+			left: 1%;
+			// font-size: 3rem;
+			// color: #000;
+			// z-index: 10;
+			// cursor: pointer;
+			// user-select: none;
+		}
+	}
+
+	.slide {
+		opacity: 0;
+		transition-duration: 1s ease;
+	}
+
+	.slide.active {
+		opacity: 1;
+		transition-duration: 1s;
+		transform: scale(1.08);
+		width: 100%;
+		.image {
+			// width: 100%;
+			object-fit: cover;
+			overflow: hidden;
+			// height: 100%;
+			border-radius: 10px;
+		}
+	}
+}

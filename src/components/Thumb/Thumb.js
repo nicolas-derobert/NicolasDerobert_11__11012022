@@ -1,14 +1,16 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Thumb.css";
 
 
 function Thumb(props) {
 	return (
+		<Link  to={`/FicheLogement/${props.id}`}>
 		<article className="thumb">			        
 			<div><img src={props.cover} alt="{props.title}" />
 			</div>
 			<h2>{props.title}</h2>
-		</article>
+		</article></Link>
 	);
 }
 

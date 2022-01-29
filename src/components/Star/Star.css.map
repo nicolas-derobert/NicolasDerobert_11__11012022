@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AACC,KADI,AACH,MAAM,CAAC;EACP,KAAK,ECGS,OAAO;CDFrB;;AAHF,AAIC,KAJI,AAIH,OAAO,CAAC;EACR,KAAK,ECJS,OAAO;CDKrB",
+    "sources": [
+        "Star.scss",
+        "../../Assets/Styles/variables.scss"
+    ],
+    "names": [],
+    "file": "Star.css"
+}

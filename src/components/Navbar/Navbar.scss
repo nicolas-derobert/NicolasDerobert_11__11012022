@@ -1,16 +1,33 @@
 @import "../../Assets/Styles/variables.scss";
+@import "../../Assets/Styles/mixin.scss";
 
 .Navbar {
+	font-size: 3rem;
+	flex-grow: 1;
 	margin: 10px;
+	text-transform: uppercase;
+	@include small-generic {
+		flex-grow: 7;
+		margin: 0px;
+		font-size: 1.5rem;
+
+
+	}
+	@include mobile-generic {
+		flex-grow:7;
+		margin: 0px;
+		font-size: 1.5rem;
+
+	}
 	ul {
+		padding: 0;
 		display: flex;
 		flex-flow: row nowrap;
-		justify-content: space-between;
+		justify-content:end;
 	}
 	li {
-		padding: 0px 10px;
+		padding: 0px 20px;
 		list-style-type: none;
-		font-size: 3rem;
 		a {
 			color: $primary-color;
 			text-decoration: none;

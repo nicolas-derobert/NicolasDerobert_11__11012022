@@ -1,7 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');$main-color : #FF6060;
+
+
+$main-color : #FF6060;
 $primary-color :#FF6060;
 $secondary-color :#E5E5E5;
 $tertiary-color : #F7F7F7;
 $fourthly-color : #F6F6F6;
+$fifthly-color :#E3E3E3;
 $black-color : #000000;
 $white-color : #ffffff;
+
+
+$breakpoint-small-device-min: 576px;
+$breakpoint-tablet-min: 768px;
+$breakpoint-desktop-min: 992px;
+$breakpoint-large-min:1200px;
+
+
+$breakpoint-mobile-max: 575.98px;
+$breakpoint-small-device-max: 767.98px;
+$breakpoint-tablet-max: 991.98px;
+$breakpoint-desktop-max: 1199.98px;
+$breakpoint-large-max:1400px;

@@ -1,12 +1,48 @@
 @import "../../Assets/Styles/variables.scss";
+@import "../../Assets/Styles/mixin.scss";
 
-.gallery{
-    background-color: $fourthly-color ;
-    // width: 100%;
-    border-radius: 10px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 50px;
-    padding: 50px;
-    margin-top: 40px;
+.gallery {
+	background-color: $fourthly-color;
+	width: 100%;
+	border-radius: 10px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+        // justify-content: center;
+        // align-items: center;
+        // align-content: center;
+	gap: 50px;
+	padding: 50px;
+	margin-top: 40px;
+ 
+        @include large-generic {
+		grid-template-columns: 1fr 1fr;
+                gap: 30px;
+	}
+        @include desktop-generic {
+		grid-template-columns: 1fr 1fr;
+	}
+        @include tablet-generic {
+		grid-template-columns: 1fr;
+	}
+	@include small-generic {
+                background-color: $white-color;
+		grid-template-columns: 1fr;
+                padding:0;
+                gap: 10px;
+
+	}
+	@include mobile-generic {
+                background-color: $white-color;
+		grid-template-columns: 1fr;
+                padding:0;
+                gap: 10px;
+
+	}
+
+
+        a{
+                display: flex;
+                justify-content: center;
+                // align-content: center;
+        }
 }

@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "AAGA,AAAA,QAAQ,CAAC;EACR,KAAK,ECDU,OAAO;EDEtB,OAAO,EAAE,IAAI;EACb,SAAS,EAAE,aAAa;EACxB,eAAe,EAAE,MAAM;EACvB,WAAW,EAAE,MAAM;EACnB,GAAG,EAAE,IAAI;EACT,KAAK,EAAE,GAAG;CAwBV;;AEXA,MAAM,EAAE,SAAS,EAAE,KAAK,OAAO,SAAS,EAAE,QAAQ;EFpBnD,AAAA,QAAQ,CAAC;IASP,KAAK,EAAE,IAAI;IACX,GAAG,EAAE,IAAI;GAqBV;;;AELA,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,QAAQ;EF1BvC,AAAA,QAAQ,CAAC;IAcP,KAAK,EAAE,IAAI;IACX,GAAG,EAAE,IAAI;GAgBV",
+    "sources": [
+        "APropos.scss",
+        "../../Assets/Styles/variables.scss",
+        "../../Assets/Styles/mixin.scss"
+    ],
+    "names": [],
+    "file": "APropos.css"
+}
