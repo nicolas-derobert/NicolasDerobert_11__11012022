@@ -1,5 +1,5 @@
 import React from 'react'
-import Thumb from '../../components/Thumb/Thumb'
+import Thumb from '../../Components/Thumb/Thumb'
 import "./Gallery.css";
 import data from '../../Assets/Data/logements.json'
 

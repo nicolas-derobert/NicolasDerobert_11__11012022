@@ -1,6 +1,5 @@
 import React, { Fragment } from "react";
 import Header from "../../Layouts/Header/Header";
-import Main from "../../Layouts/Main/Main";
 import Footer from "../../Layouts/Footer/Footer";
 import "./GlobalLayout.css"
 

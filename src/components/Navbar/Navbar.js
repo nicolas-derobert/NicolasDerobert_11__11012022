@@ -24,20 +24,6 @@ function NavBar() {
 				</li>
 			</ul>
 		</section>
-		// 	<section className="Navbar">
-		// 	<ul>
-		// 		<li>
-		// 			Accueil
-
-		// 		</li>
-		// 		<li>
-		// 			A propos
-
-		// 				A propos
-
-		// 		</li>
-		// 	</ul>
-		// </section>
 	);
 }
 

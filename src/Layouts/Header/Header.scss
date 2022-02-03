@@ -7,17 +7,8 @@ header {
 	flex-flow: row nowrap;
 	justify-content: space-between;
 	align-items: center;
-	// @include small-generic {
-	// 	margin: 0px;
-	// }
-	// @include mobile-generic {
-	// 	margin: 0px;
-	// }
 	.header-logo {
 		flex-grow: 7;
-		img {
-			// width: 100%;
-		}
 		@include small-generic {
 			flex-grow: 1;
             flex-basis: 40%;

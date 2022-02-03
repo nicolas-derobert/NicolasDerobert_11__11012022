@@ -29,22 +29,6 @@
 			gap: 10px;
 			line-height: 15px;
 		}
-		// [role="combobox"]::after {
-		// 	content: "";
-		// 	height: 10px;
-		// 	pointer-events: none;
-		// 	position: absolute;
-		// 	right: 30px;
-		// 	top: 5px;
-		// 	width: 10px;
-		// 	font-family: FontAwesome;
-		// 	content: "\f107";
-		// 	font-size: 30px;
-		// 	color: $color-sixthly;
-		// }
-		&::after {
-	
-		}
 		&.displayed {
 			&::after {
 				transform: rotate(0deg);

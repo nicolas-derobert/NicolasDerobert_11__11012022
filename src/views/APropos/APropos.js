@@ -1,6 +1,5 @@
 import React from "react";
-import dataAPropos from "../../Assets/Data/aProposData";
-import Dropdown from "../../components/Dropdown/Dropdown";
+import Dropdown from "../../Components/Dropdown/Dropdown";
 import "./APropos.css"
 
 function APropos() {
@@ -50,24 +49,5 @@ function APropos() {
   </div>;
   
 }
-
 export default APropos;
 
-
-
-// import React from 'react';
-
-// function APropos() {
-//   const listOfItems = dataAPropos.map((info) => (
-//     		<Dropdown
-//     			display={""}
-//     			key={info.id}
-//     			datatype={"typeDescription"}
-//     			data={info.description}
-//     			header={info.title}
-//     		></Dropdown>
-//     	));
-//   return <div>Hello</div>;
-// }
-
-// export default APropos;

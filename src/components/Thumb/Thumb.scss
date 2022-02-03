@@ -1,7 +1,6 @@
 @import "../../Assets/Styles/variables.scss";
 @import "../../Assets/Styles/mixin.scss";
 
-
 .thumb {
 	position: relative;
 	height: 340px;
@@ -11,7 +10,6 @@
 	@include small-generic {
 		height: 255px;
 		width: 100%;
-
 	}
 	@include mobile-generic {
 		height: 255px;
@@ -21,20 +19,16 @@
 	h2 {
 		position: absolute;
 		font-size: 2.25rem;
-		margin-top:260px;
+		margin-top: 260px;
 		margin-left: 20px;
 		z-index: 10;
 		color: $white-color;
 		@include small-generic {
-			margin-top:200px;
-
-	
+			margin-top: 200px;
 		}
 		@include mobile-generic {
-			margin-top:200px;
-
+			margin-top: 200px;
 		}
-	
 	}
 
 	div {
@@ -45,8 +39,7 @@
 		display: flex;
 		align-content: stretch;
 		align-items: stretch;
-		// border-radius: 10px;
-		img {			
+		img {
 			height: 100%;
 			width: 100%;
 			object-fit: cover;

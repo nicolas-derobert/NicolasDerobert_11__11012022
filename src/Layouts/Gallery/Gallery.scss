@@ -7,9 +7,6 @@
 	border-radius: 10px;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
-        // justify-content: center;
-        // align-items: center;
-        // align-content: center;
 	gap: 50px;
 	padding: 50px;
 	margin-top: 40px;
@@ -38,11 +35,8 @@
                 gap: 10px;
 
 	}
-
-
         a{
                 display: flex;
                 justify-content: center;
-                // align-content: center;
         }
 }

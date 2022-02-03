@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import "./Caroussel.css";
-// import { SliderData } from './SliderData';
-// import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from 'react-icons/fa';
 
 function Caroussel  (props)  {
 	const pictures = props.arrayofpictures;
@@ -16,8 +14,6 @@ function Caroussel  (props)  {
 	if (!Array.isArray(pictures) || pictures.length <= 0) {
 		return null;
 	}
-	console.log(props.arrayofpictures);
-	console.log("Hello");
 
 	return (
 		<section className="caroussel">
@@ -52,9 +48,6 @@ function Caroussel  (props)  {
 			<div className="counter" onClick={nextSlide}>
 				{`${parseInt(current+1)} / ${parseInt(length)}`}
 			</div>
-
-			{/* <FaArrowAltCircleLeft className='left-arrow' onClick={prevSlide} />
-      <FaArrowAltCircleRight className='right-arrow' onClick={nextSlide} /> */}
 			{pictures.map((slide, index) => {
 				return (
 					<div

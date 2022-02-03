@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import Jumbotron from "../../components/Jumbotron/Jumbotron";
+import Jumbotron from "../../Components/Jumbotron/Jumbotron";
 import Gallery from "../../Layouts/Gallery/Gallery";
 
 function Accueil() {

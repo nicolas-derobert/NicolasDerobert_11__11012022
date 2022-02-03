@@ -1,11 +1,11 @@
 import React, { Fragment } from "react";
 import { useParams } from "react-router-dom";
 import data from "../../Assets/Data/logements.json";
-import Tag from "../../components/Tag/Tag";
-import Host from "../../components/Host/Host";
-import Rate from "../../components/Rate/Rate";
-import Dropdown from "../../components/Dropdown/Dropdown";
-import Caroussel from "../../components/Caroussel/Caroussel";
+import Tag from "../../Components/Tag/Tag";
+import Host from "../../Components/Host/Host";
+import Rate from "../../Components/Rate/Rate";
+import Dropdown from "../../Components/Dropdown/Dropdown";
+import Caroussel from "../../Components/Caroussel/Caroussel";
 import "./FicheLogement.css";
 
 function FicheLogement() {
@@ -15,12 +15,9 @@ function FicheLogement() {
 	const logement = data.find((logement) => logement.id === idLogementRecherche);
 	const logementPictures = logement.pictures;
 	const tagList = logement.tags;
-
 	const hostName = logement.host.name;
 	const description = logement.description;
 	const hostPicture = logement.host.picture;
-
-	// const pictureList = logement.pictures;
 	const equipementList = logement.equipments;
 	console.log("Hello");
 
@@ -38,8 +35,8 @@ function FicheLogement() {
 					<Host name={hostName} picture={hostPicture}></Host>
 				</div>
 				<div className="tags">
-					{tagList.map((tagObject) => (
-						<Tag key={tagObject} tag={tagObject}></Tag>
+					{tagList.map((tagObject,index) => (
+						<Tag key={index} tag={tagObject}></Tag>
 					))}
 				</div>
 				<div className="rating">
@@ -60,9 +57,6 @@ function FicheLogement() {
 						data={equipementList}
 						header={"Equipement"}
 					></Dropdown>
-					{/* {equipementList.map((equipement) => (
-					<Tag key={tagObject} tag={tagObject}></Tag>
-				))} */}
 				</div>
 			</section>
 		</Fragment>

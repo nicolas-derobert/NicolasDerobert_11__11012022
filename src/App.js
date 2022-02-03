@@ -1,13 +1,11 @@
 import * as React from "react";
 import { Routes, Route, Navigate } from "react-router-dom";
 import "./App.css";
-import Accueil from "./views/Accueil/Accueil";
-import APropos from "./views/APropos/APropos";
-import FicheLogement from "./views/FicheLogement/FicheLogement";
+import Accueil from "./Views/Accueil/Accueil";
+import APropos from "./Views/APropos/APropos";
+import FicheLogement from "./Views/FicheLogement/FicheLogement";
 import GlobalLayout from "./Layouts/GlobalLayout/GlobalLayout";
-import ErroPage from "./views/ErroPage/ErroPage.js";
-// import NavBar from "./Layouts/Navbar/Navbar";
-
+import ErroPage from "./Views/ErroPage/ErroPage.js";
 import "./App.css";
 
 
@@ -31,5 +29,3 @@ function App() {
 }
 
 export default App;
-
-/* <NavBar></NavBar> */

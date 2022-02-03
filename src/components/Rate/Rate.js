@@ -9,16 +9,10 @@ function Rate(props) {
 
 	return (
 		<div className="rate">
-           { [...Array(filledStar)].map((e, i) => <Star status="filled" key={i}></Star>)}
-           { [...Array(emptyStar)].map((e, i) => <Star status="empty" key={i}></Star>)}
-          {/* { [
-  ...Array(committedFieldsToAdd),
-].map((value: undefined, index: number) => (
-  <Field id={index + 1} key={index} />
-))} */}
+           { [...Array(filledStar)].map((e, index) => <Star status="filled" key={index}></Star>)}
+           { [...Array(emptyStar)].map((e, index) => <Star status="empty" key={index}></Star>)}
 		</div>
 	);
 }
 
 export default Rate;
-// { [...Array(filledStar)].map((e, i) => <span className="busterCards" key={i}>♦</span>)}
