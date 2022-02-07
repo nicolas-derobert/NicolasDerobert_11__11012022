@@ -1,5 +1,5 @@
 import React from "react";
-import Dropdown from "../../Components/Dropdown/Dropdown";
+import Dropdown from "../../components/dropdown/Dropdown";
 import "./APropos.css"
 
 function APropos() {

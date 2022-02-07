@@ -1,5 +1,5 @@
 import React from "react";
-import KasaWhiteLogo from "../../Assets/Images/kasa-white.svg";
+import KasaWhiteLogo from "../../assets/images/kasa-white.svg";
 import "./Footer.css";
 
 function Footer() {

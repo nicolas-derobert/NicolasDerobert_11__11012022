@@ -55,7 +55,7 @@
   right: 15px;
   height: 15px;
   width: 26px;
-  background-image: url(../../Assets/Images/arrow.svg);
+  background-image: url(../../assets/images/arrow.svg);
   -webkit-transition: All 0.5s;
   transition: All 0.5s;
   -webkit-transform: rotate(180deg);

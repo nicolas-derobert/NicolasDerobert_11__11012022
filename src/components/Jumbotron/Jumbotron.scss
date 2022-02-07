@@ -1,5 +1,5 @@
-@import "../../Assets/Styles/variables.scss";
-@import "../../Assets/Styles/mixin.scss";
+@import "../../assets/Styles/variables.scss";
+@import "../../assets/Styles/mixin.scss";
 
 .jumbotron {
 	height: 220px;
@@ -15,7 +15,7 @@
 	border-radius: 10px;
 	background-size: cover;
 	background: no-repeat center;
-	background-image: url("../../Assets/Images/jumbotron-image.jpg");
+	background-image: url("../../assets/images/jumbotron-image.jpg");
 	div {
 		position: relative;
 		display: flex;

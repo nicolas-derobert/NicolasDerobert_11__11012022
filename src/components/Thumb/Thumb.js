@@ -5,7 +5,7 @@ import "./Thumb.css";
 
 function Thumb(props) {
 	return (
-		<Link  to={`/FicheLogement/${props.id}`}>
+		<Link  to={`/fichelogement/${props.id}`}>
 		<article className="thumb">			        
 			<div><img src={props.cover} alt="{props.title}" />
 			</div>

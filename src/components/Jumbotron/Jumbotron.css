@@ -4,7 +4,7 @@
   border-radius: 10px;
   background-size: cover;
   background: no-repeat center;
-  background-image: url("../../Assets/Images/jumbotron-image.jpg");
+  background-image: url("../../assets/images/jumbotron-image.jpg");
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {

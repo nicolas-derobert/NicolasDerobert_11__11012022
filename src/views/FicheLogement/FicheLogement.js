@@ -1,11 +1,11 @@
 import React, { Fragment } from "react";
 import { useParams } from "react-router-dom";
-import data from "../../Assets/Data/logements.json";
-import Tag from "../../Components/Tag/Tag";
-import Host from "../../Components/Host/Host";
-import Rate from "../../Components/Rate/Rate";
-import Dropdown from "../../Components/Dropdown/Dropdown";
-import Caroussel from "../../Components/Caroussel/Caroussel";
+import data from "../../assets/data/logements.json";
+import Tag from "../../components/tag/Tag";
+import Host from "../../components/host/Host";
+import Rate from "../../components/rate/Rate";
+import Dropdown from "../../components/dropdown/Dropdown";
+import Caroussel from "../../components/caroussel/Caroussel";
 import "./FicheLogement.css";
 
 function FicheLogement() {
