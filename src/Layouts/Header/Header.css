@@ -1,5 +1,6 @@
 header {
-  margin: 30px 30px 10px 30px;
+  margin: 30px 10%;
+  width: 80%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -15,10 +16,37 @@ header {
           align-items: center;
 }
 
+@media (min-width: 1400px) {
+  header {
+    width: 1200px;
+    margin: auto;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  header {
+    width: 90%;
+    margin: 5%;
+  }
+}
+
+@media screen and (max-width: 575.98px) {
+  header {
+    width: 90%;
+    margin: 5%;
+  }
+}
+
 header .header-logo {
   -webkit-box-flex: 7;
       -ms-flex-positive: 7;
           flex-grow: 7;
+}
+
+@media (min-width: 1400px) {
+  header .header-logo {
+    width: 1200px;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {

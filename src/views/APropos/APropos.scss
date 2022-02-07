@@ -2,20 +2,26 @@
 @import "../../assets/Styles/mixin.scss";
 
 .apropos {
-	color: $primary-color;
+	width: 100%;
 	display: flex;
 	flex-flow: column nowrap;
 	justify-content: center;
 	align-items: center;
-	gap: 20px;
-	width: 70%;
-	@include small-generic {
-		width: 100%;
-		gap: 10px;
+	.items {
+		color: $primary-color;
+		display: flex;
+		flex-flow: column nowrap;
+		justify-content: center;
+		align-items: center;
+		gap: 20px;
+		width: 70%;
+		@include small-generic {
+			width: 100%;
+			gap: 10px;
+		}
+		@include mobile-generic {
+			width: 100%;
+			gap: 10px;
+		}
 	}
-	@include mobile-generic {
-		width: 100%;
-		gap: 10px;
-	}
-
 }

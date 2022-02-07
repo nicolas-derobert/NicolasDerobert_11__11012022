@@ -3,7 +3,7 @@ import Thumb from '../../components/thumb/Thumb'
 import "./Gallery.css";
 import data from '../../assets/data/logements.json'
 
-console.log(data)
+
 
 
 function Gallery() {

@@ -1,7 +1,9 @@
 @import "../../assets/Styles/variables.scss";
 @import "../../assets/Styles/mixin.scss";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 .jumbotron {
+	width: 100%;
 	height: 220px;
 	@include small-generic {
 		height: 110px;
@@ -11,12 +13,22 @@
 		height: 110px;
 		width: 100%;
 	}
-	width: 80%;
-	border-radius: 10px;
-	background-size: cover;
-	background: no-repeat center;
-	background-image: url("../../assets/images/jumbotron-image.jpg");
+
+	img {
+		// width: 100%;
+		border-radius: 10px;
+		background-size: cover;
+		background: no-repeat center;
+		z-index: -1;
+	}
+	// width: 100%;
+	// border-radius: 10px;
+	// background-size: cover;
+	// background: no-repeat center;
+	// background-image: url("../../assets/images/jumbotron-image.jpg");
+
 	div {
+		overflow: hidden;
 		position: relative;
 		display: flex;
 		flex-flow: column;
@@ -29,10 +41,12 @@
 		padding: 0;
 		border-radius: 10px;
 		h1 {
-			font-size: 500;
+			font-weight: normal;
+			position: absolute;
+			z-index: 10;
+			font-weight: 500;
 			text-align: center;
 			color: #ffffff;
-			font-weight: normal;
 			padding: 10px;
 			@include small-generic {
 				text-align: left;

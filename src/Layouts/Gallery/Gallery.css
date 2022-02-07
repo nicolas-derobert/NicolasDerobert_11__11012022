@@ -1,13 +1,13 @@
 .gallery {
   background-color: #F6F6F6;
-  width: 100%;
+  width: 90%;
   border-radius: 10px;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr;
-  gap: 50px;
-  padding: 50px;
+  gap: 30px;
+  padding: 5%;
   margin-top: 40px;
 }
 

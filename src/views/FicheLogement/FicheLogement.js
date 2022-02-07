@@ -7,19 +7,21 @@ import Rate from "../../components/rate/Rate";
 import Dropdown from "../../components/dropdown/Dropdown";
 import Caroussel from "../../components/caroussel/Caroussel";
 import "./FicheLogement.css";
+import ErroPage from "../erropage/ErroPage";
 
 function FicheLogement() {
 	const params = useParams();
-	console.log(params.FicheLogementId);
 	const idLogementRecherche = params.FicheLogementId;
 	const logement = data.find((logement) => logement.id === idLogementRecherche);
+	if (!logement) {
+		return <ErroPage></ErroPage>;
+	}
 	const logementPictures = logement.pictures;
 	const tagList = logement.tags;
 	const hostName = logement.host.name;
 	const description = logement.description;
 	const hostPicture = logement.host.picture;
 	const equipementList = logement.equipments;
-	console.log("Hello");
 
 	return (
 		<Fragment>
@@ -35,7 +37,7 @@ function FicheLogement() {
 					<Host name={hostName} picture={hostPicture}></Host>
 				</div>
 				<div className="tags">
-					{tagList.map((tagObject,index) => (
+					{tagList.map((tagObject, index) => (
 						<Tag key={index} tag={tagObject}></Tag>
 					))}
 				</div>

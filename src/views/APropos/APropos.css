@@ -1,4 +1,21 @@
 .apropos {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.apropos .items {
   color: #FF6060;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -18,14 +35,14 @@
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
-  .apropos {
+  .apropos .items {
     width: 100%;
     gap: 10px;
   }
 }
 
 @media screen and (max-width: 575.98px) {
-  .apropos {
+  .apropos .items {
     width: 100%;
     gap: 10px;
   }

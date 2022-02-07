@@ -3,9 +3,11 @@ import Jumbotron from "../../components/jumbotron/Jumbotron";
 import Gallery from "../../layouts/gallery/Gallery";
 
 function Accueil() {
+	const image = "jumbotron-image.jpg"
+	const title = "Chez vous et partout ailleurs"
 	return (
 		<Fragment>
-			<Jumbotron></Jumbotron>
+			<Jumbotron title={title} imageurl={image} ></Jumbotron>
 			<Gallery></Gallery>
 		</Fragment>
 	);
