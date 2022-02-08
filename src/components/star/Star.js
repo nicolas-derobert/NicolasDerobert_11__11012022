@@ -1,4 +1,3 @@
-import React, { Fragment } from "react";
 import "./Star.css";
 
 function Star(props) {

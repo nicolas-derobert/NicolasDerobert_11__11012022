@@ -7,12 +7,6 @@ import FicheLogement from "./views/fichelogement/FicheLogement";
 import ErroPage from "./views/erropage/ErroPage.js";
 
 function AllRoutes() {
-  // let navigate = useNavigate;
-	// console.log(logement);
-	// console.log(navigate);
-
-	//   if (!logement) {
-	// 	navigate("/*", { replace: true });};
 	return (
 		<Routes>
 			<Route path="/" element={<Navigate replace to="/Accueil" />} />
@@ -27,9 +21,3 @@ function AllRoutes() {
 	);
 }
 export default AllRoutes;
-
-// <Route path="/fichelogement" >
-// <Route path=":*" element={<ErroPage />} />
-// <Route path=":FicheLogementId" element={<FicheLogement />}/>
-
-// </Route>
